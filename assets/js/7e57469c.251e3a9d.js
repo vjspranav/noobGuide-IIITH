@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkguide=self.webpackChunkguide||[]).push([[2293],{869:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/noobGuide-IIITH/blog/tags/hola","allTagsPath":"/noobGuide-IIITH/blog/tags","count":1,"unlisted":false}')}}]);
