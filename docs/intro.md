@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 id: intro
-title: "Welcome to the Labyrinth: Surviving IIITH's Dual Degree Program"
+title: "Intro to the Dual Degree Program"
 ---
 
 # Welcome to the Labyrinth 
