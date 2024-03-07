@@ -31,6 +31,7 @@ jobs:
           git config --global user.name vjspranav
           git config --global user.email pranavasri@live.in
           export GIT_USER=vjspranav 
+          echo "machine github.com login vjspranav password ${github_token}" > ~/.netrc
           git remote set-url origin https://${github_token}@github.com/${repository}
           npm run deploy
         env:
