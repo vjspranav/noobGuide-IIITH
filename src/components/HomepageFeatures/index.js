@@ -2,34 +2,36 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+// Update these SVG imports with relevant illustrations for your guide
+const VindhyaSvg = require('@site/static/img/undraw_docusaurus_mountain.svg').default;
+const AdvisorSvg = require('@site/static/img/undraw_docusaurus_tree.svg').default;
+const ResearchSvg = require('@site/static/img/undraw_docusaurus_react.svg').default;
+
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Navigate the Vindhya Maze',
+    Svg: VindhyaSvg,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Ever felt like Indiana Jones while trying to find a classroom in Vindhya? We've mapped out the shortcuts, secret passageways, and the best snack spots to fuel your adventure.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Decipher Advisor-Speak',
+    Svg: AdvisorSvg,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Learning to understand your advisor can feel like decoding ancient hieroglyphs. Our guide turns their "suggestions" into actionable tasks, making your path clearer.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Research Made Less Daunting',
+    Svg: ResearchSvg,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Diving into research can be as thrilling as exploring uncharted territories. We'll help you navigate through dense jungles of academic papers and discover treasures of knowledge.
       </>
     ),
   },
@@ -62,3 +64,4 @@ export default function HomepageFeatures() {
     </section>
   );
 }
+
