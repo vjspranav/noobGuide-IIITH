@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkguide=self.webpackChunkguide||[]).push([[8142],{378:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/noobGuide-IIITH/blog/tags/facebook","allTagsPath":"/noobGuide-IIITH/blog/tags","count":1,"unlisted":false}')}}]);
