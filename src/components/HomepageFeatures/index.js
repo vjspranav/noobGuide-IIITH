@@ -9,14 +9,15 @@ const ResearchSvg = require('@site/static/img/undraw_docusaurus_react.svg').defa
 
 const FeatureList = [
   {
-    title: 'Navigate the Vindhya Maze',
+    title: 'Balance Work and Fun at IIITH',
     Svg: VindhyaSvg,
     description: (
       <>
-        Ever felt like Indiana Jones while trying to find a classroom in Vindhya? We've mapped out the shortcuts, secret passageways, and the best snack spots to fuel your adventure.
+        Finding the right balance between academics and leisure is key to thriving at IIITH. Discover the best spots to relax, join exciting clubs, you can count on the information here!
       </>
     ),
   },
+  
   {
     title: 'Decipher Advisor-Speak',
     Svg: AdvisorSvg,
